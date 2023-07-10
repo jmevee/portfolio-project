@@ -1,10 +1,12 @@
-/* font-family: 'Bebas Neue', sans-serif;
-font-family: 'La Belle Aurore', cursive;
-font-family: 'Playfair Display', serif; */
-
-h1 {
+h1,
+h2,
+p,
+.btn-branding {
   color: black;
   font-family: "Playfair Display", serif;
+}
+
+h1 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 50px;
@@ -19,24 +21,18 @@ h1 {
 }
 
 .hero h2 {
-  color: black;
-  font-family: "Playfair Display", serif;
   text-transform: uppercase;
   font-size: 77px;
 }
 
 .hero p {
-  color: black;
-  font-family: "Playfair Display", serif;
   font-size: 25px;
 }
 
 .btn-branding {
-  font-family: "Playfair Display", serif;
   text-transform: uppercase;
   background: white;
   border-radius: 50px;
-  color: black;
   font-size: 20px;
   line-height: 25px;
   padding: 20px 20px;
@@ -48,7 +44,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 32px;
   }
@@ -60,7 +56,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .hero h2 {
     font-size: 35px;
   }
@@ -72,7 +68,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .hero p {
     font-size: 15px;
   }
@@ -84,7 +80,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .btn-branding {
     font-size: 10px;
     padding: 10px 10px;
@@ -97,7 +93,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .hero {
     max-height: 50%;
     padding: 60px 80px;
