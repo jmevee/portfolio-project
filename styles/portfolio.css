@@ -1,7 +1,9 @@
-body {
-  background: red;
-}
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Playfair Display', serif; */
 
 h1 {
-  color: white;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
