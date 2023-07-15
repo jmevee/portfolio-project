@@ -1,5 +1,6 @@
 h1,
 h2,
+h3,
 p,
 .btn-branding {
   color: black;
@@ -12,12 +13,39 @@ h1 {
   font-size: 50px;
 }
 
+.about-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.about-paragraph {
+  text-align: left;
+}
+
+.about-container {
+  background: #e6c97e;
+  padding: 35px;
+  border-radius: 10px;
+  opacity: 65%;
+}
+
+.gallery-page {
+  background-color: white;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 100%;
+  background: black;
+  padding: 20px;
+  border-radius: 10px 15px;
+}
+
 .hero {
   padding: 150px 115px;
   background-image: url(/images/herocover.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 100%;
 }
 
 .hero h2 {
@@ -36,6 +64,36 @@ h1 {
   font-size: 20px;
   line-height: 25px;
   padding: 20px 20px;
+}
+
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(1.1);
+}
+
+.page-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.responsive {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 10px 20px;
+  float: left;
+  width: 100%;
 }
 
 @media screen and (min-width: 300px) {
@@ -58,6 +116,18 @@ h1 {
 
 @media screen and (max-width: 700px) {
   .hero h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .page-title {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .page-title {
     font-size: 40px;
   }
 }
@@ -91,40 +161,15 @@ h1 {
 
 @media only screen and (min-width: 200px) {
   .hero {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .hero {
-    max-height: 100%;
+    width: 100%;
     padding: 60px 80px;
   }
-}
-
-div.gallery {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-div.gallery:hover {
-  opacity: 85%;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  margin-top: 100px;
-  margin-left: 15px;
-  padding: 10px 20px;
-  float: left;
-  width: 30%;
 }
 
 @media only screen and (max-width: 500px) {
