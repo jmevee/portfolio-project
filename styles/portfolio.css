@@ -13,6 +13,77 @@ h1 {
   font-size: 50px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+footer {
+  margin: 60px;
+}
+footer .email-link {
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  font-weight: bold;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  padding: 10px 18px;
+  border-radius: 50%;
+  font-size: 25px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: black;
+}
+
+nav {
+  padding: 6px;
+  background-color: #e6c97e;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 55px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+nav a:hover,
+nav li.active a {
+  font-weight: bold;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+div {
+  text-align: center;
+}
+
 .about-photo img {
   width: 100%;
   height: auto;
@@ -29,12 +100,10 @@ h1 {
   opacity: 65%;
 }
 
-.email {
-  text-align: center;
-}
-
+.email,
 .linkedin {
   text-align: center;
+  color: black;
 }
 
 .gallery-page {
@@ -105,39 +174,6 @@ h1 {
   padding: 10px 20px;
   float: left;
   width: 100%;
-}
-
-nav {
-  padding: 6px;
-  background-color: #e6c97e;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 55px;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
-nav a:hover,
-nav li.active a {
-  font-weight: bold;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-}
-
-div {
-  text-align: center;
 }
 
 @media screen and (min-width: 300px) {
