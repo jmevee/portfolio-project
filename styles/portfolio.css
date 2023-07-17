@@ -44,7 +44,6 @@ h1 {
 .container {
   margin: 20px auto;
   max-width: 100%;
-  background: black;
   padding: 20px;
   border-radius: 10px 15px;
 }
@@ -96,12 +95,45 @@ h1 {
   text-transform: uppercase;
 }
 
+.logo {
+  max-height: 55px;
+}
+
 .responsive {
   margin-top: 20px;
   margin-left: 15px;
   padding: 10px 20px;
   float: left;
   width: 100%;
+}
+
+nav {
+  padding: 6px;
+  background-color: #e6c97e;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 55px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+nav a:hover,
+nav li.active a {
+  font-weight: bold;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 div {
